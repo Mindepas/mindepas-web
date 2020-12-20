@@ -4092,7 +4092,6 @@ input, select, textarea {
 		}
 
 			#footer .inner .copyright li {
-				border-left: solid 2px rgba(255, 255, 255, 0.125);
 				color: rgba(255, 255, 255, 0.35);
 				display: inline-block;
 				font-size: 0.9em;
@@ -4177,7 +4176,7 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 670px) {
 
 		#footer .inner .copyright li {
 			border-left: 0;
@@ -4190,6 +4189,14 @@ input, select, textarea {
 				margin-top: 0;
 			}
 
+	}
+
+	@media screen and (min-width: 671px) {
+
+		#footer .inner .copyright {
+			display: flex;
+			justify-content: space-between;
+		}
 	}
 
 	@media screen and (max-width: 360px) {
